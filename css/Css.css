@@ -13,6 +13,13 @@ body {
 main{
     margin-top: 50px;
 }
+section{
+    margin:20px 0px;
+    padding: 30px 20px 30px 20px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888
+}
 #conputer{
     background-image: url(../images/computer.jpg);
 }
