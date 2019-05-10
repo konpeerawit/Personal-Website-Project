@@ -1,0 +1,25 @@
+header{
+    padding : 10px 0px;
+    font-size: 1.0em;
+    text-align: center;
+
+}
+body {
+    width:650px;
+    margin:0 auto;
+    color: black;
+    font: 20px sans-serif;
+}
+main{
+    margin-top: 50px;
+}
+#conputer{
+    background-image: url(../images/computer.jpg);
+}
+li{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #38ff92;
+}
