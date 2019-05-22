@@ -1,5 +1,5 @@
 var adjust=0
-var zone="Thailand"
+var zone="New York"
 myOffset=210   //setting this to your offset will start with your current time
 var PST=480
 var EST=300
