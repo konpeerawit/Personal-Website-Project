@@ -5,7 +5,10 @@ header{
     background-color: skyblue;
 }
 nav{
-    grid-template-columns: repeat(6,1fr);
+    display: grid;
+    margin: 5px;
+    padding: 10px 5px;
+
 }
 ul{
     grid-template-columns: repeat(6,1fr);
@@ -21,8 +24,27 @@ h2{
     margin-top: 50px;
     text-align: center;
 }
-table{
-    font-size: 1rem;
-    margin-bottom: 10px;
-    border-spacing: 0;
+article {
+    display: grid;
+    grid-template-columns: 9fr 2fr;
+    grid-auto-rows: 200px 200px 200px;
+    grid-gap: 10px;
+    margin: 5px;
+    width: auto;
+}
+
+section {
+    font-size: 2em;
+    background-color: yellowgreen;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+}
+table {
+    display: grid;
+    font-size: 1em;
+    margin: 1px;
+    padding: 15px;
+    width: 25%;
+    margin-right:auto;
 }
