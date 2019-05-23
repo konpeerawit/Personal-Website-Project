@@ -8,17 +8,24 @@ nav{
     display: grid;
     margin: 5px;
     padding: 10px 5px;
-
 }
 ul{
-    grid-template-columns: repeat(6,1fr);
-
+    grid-template-columns: repeat(1fr);
+}
+nav ul a{
+    margin: 10px;
+}
+nav #t1 {
+    float: right;
+    margin: 0;
 }
 body {
     margin: auto;
     color: black;
     font: 20px sans-serif;
     background-color:lightgoldenrodyellow;
+    max-width: 1140px;
+    width: 100%;
 }
 h2{
     margin-top: 50px;
@@ -38,7 +45,6 @@ article {
 
 div {
     font-size: 1em;
-    background-color: pink;
     padding: 10px;
     width: auto;
     height: 375px;
@@ -54,5 +60,19 @@ table {
 }
 
 footer {
-    margin: 200px 0px 0px 0px;
+    padding : 10px 0px;
+    text-align: center;
+    background-color: #38ff92;
+}
+main img
+{
+    width: 1140px;
+    height: 550px;
+    text-align: center;
+}
+@media only screen and (max-width : 1083px)
+{
+    main img{
+        width: 1083px;
+    }
 }

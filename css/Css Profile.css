@@ -1,0 +1,23 @@
+header{
+    padding : 10px 0px;
+    font-size: 1.0em;
+    text-align: center;
+    background-color: skyblue;
+
+}
+body {
+    margin:0 auto;
+    color: black;
+    font: 20px sans-serif;
+    background-color:lightgoldenrodyellow;
+}
+ul{
+    grid-template-columns: repeat(6,1fr);
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-spacing: 0;
+    
+}
+h1{
+    text-align: center;
+}
