@@ -11,13 +11,38 @@ body {
     font: 20px sans-serif;
     background-color:lightgoldenrodyellow;
 }
-ul{
-    grid-template-columns: repeat(6,1fr);
-    font-size: 1rem;
-    margin-bottom: 10px;
-    border-spacing: 0;
-    
-}
-h1{
+h2{
     text-align: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 5rem;
+}
+.main .img
+{
+    width: 600px;
+    height: 400px;
+}
+.t1
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+}
+
+.s{
+    font-weight: s;
+}
+footer {
+    padding : 10px 0px;
+    text-align: center;
+    background-color: #38ff92;
+}
+
+@media only screen and (max-width : 1083px)
+{
+    main img{
+        width: 500px;
+    }
 }

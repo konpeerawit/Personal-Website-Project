@@ -15,16 +15,6 @@ main{
     margin-top: 50px;
     text-align: center;
 }
-section{
-    margin:20px 0px;
-    padding: 30px 20px 30px 20px;
-    border: 2px solid #FFF;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px #888888
-}
-li{
-    text-align: center;
-}
 footer{
     text-align: center;
     background-color: #38ff92;
